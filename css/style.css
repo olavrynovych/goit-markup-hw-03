@@ -1,0 +1,177 @@
+:root {
+  --Roboto: 'Roboto', sans-serif;
+  --accent-color: 
+  --title-font:
+}
+body {
+  font-family: var(--Roboto);
+  color: #757575;
+}
+
+.navigation-list-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.333;
+    letter-spacing: 0.02em;
+    
+    color: #212121;
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus {
+    color: #2196F3;
+}
+
+.logo-text{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.154;
+    /* letter-spacing: 0.02em; */
+    color: black;
+}
+.logo-text-web{
+    color: #2196F3;
+}
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+ul,
+ol{
+    margin: 0;
+    padding: 0;
+}
+img{
+    display: block;
+}
+.tel-link,
+.mail-link{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.333;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.address-link{
+    font-style: normal;  
+}
+.tel-link:hover,
+.tel-link:focus,
+.mail-link:hover,
+.mail-link.focus{
+    color: #2196F3;
+}
+.active-link{
+    color: #2196F3;
+}
+.order-btn{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+
+    /* identical to box height, or 187% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background: #2196F3;
+    color: #FFFFFF;
+}
+.order-btn:focus,
+.order-btn:focus{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    background: #188CE8;
+    
+    /* identical to box height, or 187% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+}
+.filter-btn{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    
+    /* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+}
+.filter-btn:hover,
+.filter-btn:focus{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    background: #2196F3;
+    /* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+}
+
+.header-text{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.363;
+
+    /* or 136% */
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    /* color: #FFFFFF; */
+}
+
+.what-we-do-elements{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.625;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.waht-we-do-header,
+.our-team-header{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+
+.team-members-names,
+.portfolio-header-item{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.187;
+
+    /* identical to box height */
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+.team-members-positions{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.187;
+
+    /* identical to box height */
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+
