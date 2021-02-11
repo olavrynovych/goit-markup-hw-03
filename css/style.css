@@ -66,11 +66,13 @@ img{
 }
 .header .container{
     display: flex;
-    align-items: center;
+    align-items: center;   
 }
 .container{
-    width: 1170px;
+    width: 1200px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .navigation .logo-text{
     margin-right: 93px;
@@ -144,14 +146,15 @@ img{
 
     color: #FFFFFF;
 }
-.features .container{
-    margin-top: 94px;
-    margin-bottom: 94px;
+.features{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .header{
     padding-top: 24px;
     padding-bottom: 25px;
+    border: 1px solid #ECECEC;
 }
 .header-text{
     font-weight: 900;
@@ -192,10 +195,7 @@ img{
      0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px; 
 }
-.our-team-container{
-    height: 270px;
-    margin-bottom: 50px;
-}
+
 .our-team-list-item:not(:last-child){
     margin-right: 30px;
 }
@@ -233,8 +233,7 @@ img{
 .what-we-do-item-img:not(:nth-child(3n)){
     margin-right: 30px;
 }
-.team-members-names,
-.portfolio-header-item{
+.team-members-names{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.187;
@@ -296,14 +295,23 @@ img{
     flex-wrap: wrap;
 }
 .portfolio-list-item:not(:nth-child(3n)){
-    margin-right: 30px;
+    margin-right: 27px;
 }
-
+.portfolio-list-item{
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    margin-bottom: 30px;
+}
 .portfolio-item-about{
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
     padding-left: 24px;
     padding-right: 24px;
+}
+.portfolio-item-about p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
 }
 .buttons-list-item:not(:last-child){
     margin-right: 8px;
@@ -322,6 +330,10 @@ img{
     border: none;
     background: #F5F4FA;
     border-radius: 4px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    padding-right: 22px;
+    padding-left: 22px;
 }
 .filter-btn:hover,
 .filter-btn:focus{
@@ -332,7 +344,22 @@ img{
     /* identical to box height, or 162% */
     text-align: center;
     letter-spacing: 0.03em;
-
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
+    0px 1px 2px rgba(0, 0, 0, 0.08), 
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
     color: #FFFFFF;
 }
+.portfolio-container{
+    padding-bottom: 60px;
+}
+.portfolio-header-item{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    font-style: normal;
 
+    letter-spacing: 0.06em;
+
+    color: #212121;
+}
