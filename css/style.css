@@ -58,7 +58,7 @@ img{
 
 .what-we-do-container{
     display: flex;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 
 .our-team-container{
@@ -66,7 +66,7 @@ img{
 }
 .header .container{
     display: flex;
-    align-items: center;   
+    /* align-items: center;    */
 }
 .container{
     width: 1200px;
@@ -82,10 +82,12 @@ img{
 }
 .address{
     margin-left: auto;
-    justify-content: right;
 }
 .navigation .mail-link{
     margin-right: 50px;
+}
+.navigation .address{
+    justify-content: flex-end;
 }
 .tel-link,
 .mail-link{
@@ -285,8 +287,8 @@ img{
 /*===============      PORTFOLIO    */
 .buttons-container{
     display: flex;
-    margin-top: 94px;
-    margin-bottom: 50px;
+    padding-top: 94px;
+    padding-bottom: 50px;
     align-items: center;
     justify-content: center
 }
@@ -350,8 +352,10 @@ img{
     border-radius: 4px;
     color: #FFFFFF;
 }
-.portfolio-container{
+
+.portfolio{
     padding-bottom: 60px;
+    /* padding-top: 94px; */
 }
 .portfolio-header-item{
     font-weight: 700;
